@@ -114,5 +114,5 @@ def init_db():
     "restartPolicyMaxRetries": 10
   }
 }
-
+INSERT INTO users (telegram_id, last_seen) VALUES (123, NOW());
         
