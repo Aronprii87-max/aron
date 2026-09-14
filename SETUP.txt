@@ -1,0 +1,4 @@
+Replace bot.py and requirements.txt in your repository, and add railway.json at the repository root.
+The bot service needs BOT_TOKEN and DATABASE_URL environment variables. DATABASE_URL must point to your PostgreSQL database.
+After deploying, send /start and then a location in Telegram.
+Validation: Python syntax and mocked startup/database success/error paths passed. Live Telegram, PostgreSQL and Railway deployment were not tested.
