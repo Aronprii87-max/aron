@@ -50,3 +50,11 @@ def get_db():
  SimpleConnectionPool
 
 DATABASE_URL 
+"""CREATE TABLE IF NOT EXISTS users (
+            telegram_id BIGINT PRIMARY KEY,
+            username TEXT,
+            lat DOUBLE PRECISION,
+            lng DOUBLE PRECISION,
+            last_seen TIMESTAMPTZ
+        )"""
+        
